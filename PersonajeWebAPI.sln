@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonajeWebAPI", "PersonajeWebAPI\PersonajeWebAPI.csproj", "{282EA9C7-5BC9-4B9F-BAF6-8E4FE6EA53E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{4A0807AC-406E-4D92-8CB4-B9F1CDF87B84}"
+	ProjectSection(SolutionItems) = preProject
+		Personaje.cs = Personaje.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{139F1A46-0BA2-4E5E-88A9-531E1918392E}"
+	ProjectSection(SolutionItems) = preProject
+		PersonajeADORepository.cs = PersonajeADORepository.cs
+		PersonajeContext.cs = PersonajeContext.cs
+		PersonajeEFRepository.cs = PersonajeEFRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{46C5B494-0862-47FB-9D62-5AF96515505E}"
+	ProjectSection(SolutionItems) = preProject
+		PersonajeCreateDto.cs = PersonajeCreateDto.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282EA9C7-5BC9-4B9F-BAF6-8E4FE6EA53E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282EA9C7-5BC9-4B9F-BAF6-8E4FE6EA53E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282EA9C7-5BC9-4B9F-BAF6-8E4FE6EA53E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282EA9C7-5BC9-4B9F-BAF6-8E4FE6EA53E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
